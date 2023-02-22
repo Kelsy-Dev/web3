@@ -102,3 +102,11 @@ footer h3 {
 .details {
     margin: 13px 20px;
 }
+
+
+.icon-menu {
+    display: none;
+}
+.open-menu {
+    display: none;
+}
