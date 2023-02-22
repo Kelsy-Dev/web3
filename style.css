@@ -2,9 +2,13 @@
     margin: 0;
     height: auto;
     font-family: sans-serif;
+    color: grey;
 }
 body {
     margin: 0 20px;
+}
+p {
+    line-height: 27px;
 }
 
 header {
@@ -14,6 +18,10 @@ header {
     margin: 20px 0;
 }
 
+
+/*************** 
+FIRST SECTION 
+****************/
 .main {
     display: flex;
     flex-wrap: wrap;
@@ -21,22 +29,22 @@ header {
 }
 
 .main-img {
-    width: 450px;
+    width: 90vw;
     margin: 0 auto;
 }
 
-section h1 {
-    font-weight: bold;
+.main h1 {
+    font-weight: 800;
     font-size: 40px;
     margin-top: 15px;
+    color: black;
 }
-section p {
+.main p {
     margin-top: 15px;
     font-weight: 100;
     font-size: 16px;
-    color: grey;
 }
-section button {
+.main button {
     background-color: rgb(224, 120, 50);
     color: white;
     border: none;
@@ -45,6 +53,10 @@ section button {
     font-size: 16px;
 }
 
+
+/*************** 
+SECOND SECTION 
+****************/
 .section-two {
     background-color: rgb(0, 0, 32);
     margin: 20px 0;
@@ -62,11 +74,14 @@ hr {
     color: grey;
 }
 
+
+/*************** 
+LAST SECTION 
+****************/
 footer {
     display: flex;
     flex-direction: column;
     margin-bottom: 70px;
-    color: rgb(153, 153, 153);
 }
 
 footer img {
@@ -78,7 +93,6 @@ footer img {
 footer h3 {
     color: black;
     font-weight: 800;
-    margin: 13px 0;
 }
 
 .col {
@@ -86,5 +100,5 @@ footer h3 {
     align-items: center;
 }
 .details {
-    margin-left: 30px;
+    margin: 13px 20px;
 }
