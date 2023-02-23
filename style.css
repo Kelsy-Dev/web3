@@ -104,9 +104,29 @@ footer h3 {
 }
 
 
-.icon-menu {
-    display: none;
+
+.menu {
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 190px;
+    height: 90vh;
+    right: 0;
+    top: 0;
+    box-shadow: -19px -20px 20px 0px #404040;
 }
-.open-menu {
+.menu h4 {
+    color: black;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.icon-menu {
+    position: absolute;
+    z-index: 2;
+    right: 22px;
+}
+
+.hide{
     display: none;
 }

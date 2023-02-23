@@ -1,10 +1,15 @@
 const icon = document.querySelector('.icon');
 const cross = document.querySelector('.icon-menu');
+const menuBar = document.querySelector('.menu');
+
+
 icon.addEventListener('click', () => {
-    icon.classList.add('open-menu');
-    cross.classList.remove('icon-menu');
+    icon.classList.add('hide');
+    cross.classList.remove('hide');
+    menuBar.classList.remove('hide');
 })
 cross.addEventListener('click', () => {
-    icon.classList.remove('open-menu');
-    cross.classList.add('icon-menu');
+    icon.classList.remove('hide');
+    cross.classList.add('hide');
+    menuBar.classList.add('hide');
 })
